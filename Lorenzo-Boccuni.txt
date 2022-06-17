@@ -1,0 +1,18 @@
+1. Cosa fa il comando 'git status'? Spiega come funziona la staging area
+ git status consente di visualizzare lo stato corrente della Working Area e vedere, per esempio, quali file sono nella Staging Area, pronti per essere inseriti nel prossimo commit. 
+La staging area permette di creare un clone del proprio sito in un ambiente di prova, su di un indirizzo provvisorio.
+ È possibile così eseguire modifiche, aggiornamenti e fare tutte le prove di cui si necessita, senza che queste siano visibili online.
+
+
+3.  Cos'è un repository remoto? Descrivi cosa fa il comando 'git clone <remote repository>'
+Un repository è come un database che archivia le modifiche apportate al codice nel tempo. Tiene traccia della cronologia del progetto e di chi ha apportato le modifiche, quando e perché. 
+Anche se sbagli qualcosa, puoi sempre tornare allo stato precedente.
+ È fondamentalmente una cartella .git all’interno di un progetto, che crea un’intera cronologia del progetto incluse tutte le modifiche apportate dall’inizio.
+
+2. Descrivi il comando 'git switch <branch>', spiegando brevemente cosa sono i branch e cosa è la HEAD
+I rami (branch o più estesamente "ramificazioni") vengono utilizzati in Git per l'implementazione di funzionalità tra loro isolate,
+ cioè sviluppate in modo indipendente l'una dall'altra ma a partire dalla medesima radice.
+ Strutturalmente il ramo predefinito di un progetto gestito tramite il DVCS è il master che viene generato quando si crea un repository;
+ sarà poi possibile ricorrere ad ulteriori diramazioni dedicate a features differenti per poi inserirle nel master, tramite procedura di merging, quando complete.
+La sezione head è l'area dedicata all'intestazione ( header ) del documento HTML e comprende tutte quelle informazioni di controllo che non sono visualizzate dal browser
+ ma che consentono la corretta visualizzazione della pagina.
