@@ -1,0 +1,15 @@
+1)Cosa fa il comando 'git diff'? Spiega come funziona la staging area
+Il comando git diff permette di confrontare due entità e mostrare le informazioni in merito alle modifiche presenti fra le due. Possiamo per esempio comparare due file oppure due commit.
+L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit. Il repository contiene tutti i commit di un progetto.
+
+2)Descrivi il comando 'git log', spiegando brevemente cosa sono i branch e cosa è la HEAD
+Lo strumento Git Log consente di visualizzare le informazioni sui commit precedenti che si sono verificati in un progetto. La versione più semplice del comando log mostra i commit che portano allo stato del ramo attualmente estratto.
+I rami (branch o più estesamente "ramificazioni") vengono utilizzati in Git per l'implementazione di funzionalità tra loro isolate, cioè sviluppate in modo indipendente l'una dall'altra ma a partire dalla medesima radice. 
+Strutturalmente il ramo predefinito di un progetto gestito tramite il DVCS è il master che viene generato quando si crea un repository; sarà poi possibile ricorrere ad ulteriori diramazioni dedicate a features differenti per poi inserirle nel master,
+ tramite procedura di merging, quando complete.
+La sezione head è l'area dedicata all'intestazione ( header ) del documento HTML e comprende tutte quelle informazioni di controllo che non sono visualizzate dal browser ma che consentono la corretta visualizzazione della pagina.
+
+3)Cos'è un repository remoto? Descrivi cosa fa il comando 'git push'
+Esegue il push di commit finalizzati dal repository locale al CodeCommit utilizzando il nome alternativo specificato di cui il repository locale dispone per il CodeCommit repository e il ramo specificato. Configura inoltre le informazioni di registrazione upstream per
+ il repository locale durante il push.
+A parte il tuo repository locale, qualsiasi altro repository per git è un remote. Per collegare il tuo repository locale ad un remote ti basta fornire a git l’indirizzo del repository remoto con il comando git remote

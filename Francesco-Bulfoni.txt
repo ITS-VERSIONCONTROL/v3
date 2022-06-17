@@ -1,0 +1,24 @@
+1)Cosa fa il comando 'git add <file>'? Spiega come funziona la staging area
+Il comando git add aggiunge una modifica nella directory di lavoro all'area di staging.
+L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit.
+Il repository contiene tutti i commit di un progetto
+
+
+2)Descrivi il comando 'git branch <nuovo branch>', spiegando cosa sono i branch e cosa è la HEAD
+I rami (branch o più estesamente "ramificazioni") vengono utilizzati in Git per l'implementazione di funzionalità tra loro isolate,
+cioè sviluppate in modo indipendente l'una dall'altra ma a partire dalla medesima radice.
+Strutturalmente il ramo predefinito di un progetto gestito tramite il DVCS è il master che viene generato quando si crea un repository; 
+sarà poi possibile ricorrere ad ulteriori diramazioni dedicate a features differenti per poi inserirle nel master, tramite procedura di merging, quando complete.
+La sezione head è l'area dedicata all'intestazione ( header ) del documento HTML e comprende tutte quelle informazioni di controllo che non sono visualizzate dal browser ma
+che consentono la corretta visualizzazione della pagina.
+
+
+3)Cos'è un repository remoto? Descrivi cosa fa il comando 'git fetch'
+A parte il tuo repository locale, qualsiasi altro repository per git è un remote.
+Per collegare il tuo repository locale ad un remote ti basta fornire a git l’indirizzo del repository remoto con il comando git remote
+Git fetch è una delle ultime funzionalità di git utilizzata per estrarre informazioni sugli ultimi commit aggiornati, rami inclusi e file dal suo repository remoto con i suoi oggetti correlati.
+Questo comando di git è usato specialmente per ricostruire la storia precedente del ramo specifico in cui devi fare delle modifiche.
+Una delle cose migliori di git fetch è che non influisce sul tuo repository locale.
+Usando git fetch sei in grado di apportare tutte le modifiche dal tuo repository remoto e di memorizzarle creando la tua cartella sul ramo locale e se vuoi aggiungere quelle modifiche nel tuo ramo correlato,
+usa git merge.
+

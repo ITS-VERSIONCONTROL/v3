@@ -1,0 +1,28 @@
+Version control  - Adriano Gecaj 
+
+
+1. Chiudendo e riaprendo il file con notepad troviamo che è tornato esattamente come era in 
+origine, Questa è il ripristino del file prima che venga aggiunto al sistema di versioneamento. 
+Proseguiamo modificando nuovamente il file e aggiungendolo attraverso il commit delle 
+modifiche.
+La staging area è costituita dai file che faranno parte del commit che verrà, il che consente a 
+git di sapere quali modifiche si verificheranno nel file per il prossimo commit. Il repository 
+contiene tutti i commit.
+
+2. Il merge è l’unione tra commit di branch differenti. Il branch in generale indica una 
+versione del tuo repository contenente uno o più commit non presenti nella versione 
+“originale”. In Git abbiamo un “ramo” principale chiamato master che raccoglie tutti commit dei 
+file del tuo progetto. Può succedere tuttavia che sia necessario creare un ramo nuovo per 
+testare delle versioni diverse di uno o più file del progetto che conterrà tutti i commit delle 
+modifiche ai file. Potrai infine scegliere se riunire i rami tramite un merge o abbandonare il 
+ramo creato per tornare al branch originale. Con HEAD si indica il branch di lavoro attuale. 
+​HEAD​ è la referenza all’ultimo commit di un ramo di lavoro di un branch al quale si sta 
+lavorando. Possono esistere più heads ognuno dei quali farà riferimento all’ultimo commit di un 
+branch.
+
+3. Senza contare il tuo repository locale, qualsiasi altro repository per git è un remote. Per 
+collegare il tuo repository locale ad un remote basta fornire a git l’indirizzo del repository 
+remoto con il comando git remote
+Il comando git p​ull​ chiederà a di poter scaricare le modifiche sul tuo repository locale e 
+unirle ai tuoi file. Il pull è l’unione del comando ​fetch​ e del comando m​erge​.
+
