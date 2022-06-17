@@ -39,7 +39,7 @@ Obiettivo dello sprint: implementare nell'applicazione le seguenti funzionalità
 ## Step 1 (3 punti)
 
 - Creare il branch 'feature/sorint02-articoli' partendo da 'develop' ed effettuare gli sviluppi su questo branch
-- In 'index.html' sostituire la voce di esempio del menù con una voce '3. Articoli' che linka alla pagina 'articoli.html'
+- In 'index.html' sostituire la voce di qesempio del menù con una voce '3. Articoli' che linka alla pagina 'articoli.html'
 - Creare il file 'articoli.html' partendo dal file 'template.html' (copiando e NON cancellando il file template), personalizzando:
 
   - Titolo: Articoli
