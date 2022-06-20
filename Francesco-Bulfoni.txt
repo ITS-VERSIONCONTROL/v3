@@ -1,3 +1,6 @@
+
+Francesco Bulfoni fila n°3 posizione 2
+
 1)Cosa fa il comando 'git add <file>'? Spiega come funziona la staging area
 Il comando git add aggiunge una modifica nella directory di lavoro all'area di staging.
 L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit.
