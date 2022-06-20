@@ -1,16 +1,22 @@
-Alessandro Cannizzaro 
+Nome: Alessandro  
+Cognome: Cannizzaro
+Fila n.: 3
+Posizione n.: 4
  
 1) Cosa fa il comando 'git commit -m '? Spiega come funziona la staging area
 
-Quando si esegue un commit git crea un nuovo oggetto commit utilizzando i file dello stage ed impostando il genitore al commit attuale. Successivamente punta il branch corrente a questo nuovo commit.
+Quando si esegue un commit git crea un nuovo oggetto commit utilizzando i file dello stage ed impostando il genitore al commit attuale. 
+Successivamente punta il branch corrente a questo nuovo commit.
 Ogni commit è un'istantanea della working directory ad un certo istante di tempo. 
 Ogni nuovo commit creato nel repository, mantiene al suo interno un riferimento a un 
-commit precedente. L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit. Il repository contiene tutti i commit di un progetto.
+commit precedente. L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit. 
+Il repository contiene tutti i commit di un progetto.
 
 
 2) Descrivi il comando 'git branch ', spiegando brevemente cosa sono i branch e cosa è la HEAD
  
-Un Branch non è altro che un puntatore a un commit. Al contrario dei tag che sono delle etichette fisse, man mano che creiamo un nuovo commit, il branch corrente si sposta e punta al nuovo commit creato.
+Un Branch non è altro che un puntatore a un commit.
+Al contrario dei tag che sono delle etichette fisse, man mano che creiamo un nuovo commit, il branch corrente si sposta e punta al nuovo commit creato.
 Git usa il puntatore speciale HEAD per capire qual è il branch corrente.In condizioni normali, HEAD contiene un riferimento al branch corrente.
 Quando creiamo un nuovo repository, Git crea in automatico il branch di default che prende il nome di master.
 
