@@ -1,7 +1,7 @@
  Nome: Adriano
   Cognome: Gecaj
   Fila n.: 3
-  Posizione n.: 3s
+  Posizione n.: 3
 
 1. Chiudendo e riaprendo il file con notepad troviamo che è tornato esattamente come era in 
 origine, Questa è il ripristino del file prima che venga aggiunto al sistema di versioneamento. 
