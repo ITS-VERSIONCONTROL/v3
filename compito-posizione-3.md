@@ -119,7 +119,7 @@ Obiettivo dello sprint: nuove vesti grafiche e contenuti aggiornati
   - effettuare la push su origin del nuovo release branch
 
 ## Step 3 (3 punti)
-
+q
 - riallineare il branch 'main' (git pull)
 - spostarsi sul proprio alternative branch e riallinearlo a main (git merge)
 - verificare che le ultime implementazioni dell'applicazione siano integrate, insieme al colore di sfondo alternativo
