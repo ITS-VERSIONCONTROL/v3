@@ -1,3 +1,5 @@
+Lorenzo Boccuni Fila n.3 Posizione 1
+
 1. Cosa fa il comando 'git status'? Spiega come funziona la staging area
  git status consente di visualizzare lo stato corrente della Working Area e vedere, per esempio, quali file sono nella Staging Area, pronti per essere inseriti nel prossimo commit. 
 La staging area permette di creare un clone del proprio sito in un ambiente di prova, su di un indirizzo provvisorio.
